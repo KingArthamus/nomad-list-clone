@@ -54,19 +54,108 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <div className="parent border flex border-yellow-400 w-full justify-center">
+      <div className="parent border flex border-yellow-400 w-full justify-center mt-11 pt-11">
         <div className="flex flex-col w-1/2">
-          <div className="border border-red-600"> img </div>
+          <div className="border border-red-600 flex">
+            <div>img</div>
+            <div className="border border-green-500 flex flex-col w-1/8 text-xs text-center">
+              #1 nomad community
+              <div className="flex justify-center">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="10"
+                    height="10"
+                    viewBox="0 0 24 24"
+                    fill="white"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-star"
+                  >
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                  </svg>
+                </div>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="10"
+                    height="10"
+                    viewBox="0 0 24 24"
+                    fill="white"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-star"
+                  >
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                  </svg>
+                </div>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="10"
+                    height="10"
+                    viewBox="0 0 24 24"
+                    fill="white"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-star"
+                  >
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                  </svg>
+                </div>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="10"
+                    height="10"
+                    viewBox="0 0 24 24"
+                    fill="white"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-star"
+                  >
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                  </svg>
+                </div>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="10"
+                    height="10"
+                    viewBox="0 0 24 24"
+                    fill="white"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-star"
+                  >
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                  </svg>
+                </div>
+              </div>
+              <div className="text-xs">since 2014</div>
+            </div>
+            <dv>img</dv>
+          </div>
           <div className="flex flex-col">
             <h1 className="bold text-4xl"> Go nomad and live anywhere</h1>
-            <p className="text-lg">
+            <p1 className="text-lg">
               Join the #1 global community of 34,128 remote workers living and
               traveling around{" "}
-              <p className="text-lg">
+              <p2 className="text-lg">
                 the world since 2014. Don't go at it alone, meet other nomads
                 and get together!
-              </p>
-            </p>
+              </p2>
+            </p1>
           </div>
           <div className="flex -space-x-2">
             <div className="border border-white rounded-full h-8 w-8 z-[10] background bg-red-600"></div>
@@ -104,36 +193,36 @@ export default function Home() {
             </div>
           </button>
         </div>
-        <div className="flex-wrap flex-col-1 w-1/4 border border-red-500 rounded-md p-4 space-y-2">
-          <div className="border border-green-500 rounded-md pt-6 h-32">
-            video
-          </div>
-          <div className="border border-blue-600 rounded-lg flex cursor-text h-8">
-            <input
-              className="justify-left p-1 pl-3 bg-transparent focus:outline-none"
-              placeholder="Type your email..."
-            />
-          </div>
-          <button className="bg bg-red-600 rounded-lg justify-end hover:bg-transparent hover:text-red-600 hover:border border-red-600 bold w-full p-3 flex items-center h-8">
-            Go Nomad
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="10"
-              height="10"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-move-right"
-            >
-              <path d="M18 8L22 12L18 16" />
-              <path d="M2 12H22" />
-            </svg>
-          </button>
-          <div className="text-xs">
-            If you already have an account, we'll log you in{" "}
+        <div className="flex-wrap flex-col-1 w-1/4 bg-white border border-red-500 rounded-md p-4 space-y-2 mt-8 mb-10 relative">
+          <div className="fixed">
+            <div className="border border-green-500 rounded-md pt-6 h-32 hover:bg-gray-200"></div>
+            <div className="border border-blue-600 rounded-lg flex cursor-text h-8">
+              <input
+                className="justify-left p-1 pl-3 bg-transparent focus:outline-none"
+                placeholder="Type your email..."
+              />
+            </div>
+            <button className="bg bg-red-600 rounded-lg justify-center hover:bg-transparent hover:text-red-600 hover:border border-red-600 bold w-full p-3 flex items-center h-8">
+              Go Nomad
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="10"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-move-right"
+              >
+                <path d="M18 8L22 12L18 16" />
+                <path d="M2 12H22" />
+              </svg>
+            </button>
+            <div className="text-xs text-black text-center">
+              If you already have an account, we'll log you in
+            </div>
           </div>
         </div>
       </div>
