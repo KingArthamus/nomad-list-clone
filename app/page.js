@@ -1,16 +1,28 @@
 "use client";
-import Image from "next/image";
-import baby from "./images/download.jpeg";
 import WaveSVG from "../components/wave";
 
 export default function Home() {
   return (
     <main>
-      <div className="border border-red-600 bg-black  w-full flex min-h-screen flex-col items-center justify-start px-4">
+      <div className="border border-red-600 bg-black  w-full flex flex-col items-center justify-start px-4 pb-28">
         <div className="border border-green-600 flex py-3 w-full justify-between">
           <div className="flex items-center">
-            <button className="border border-red-600 hover:opacity-55">
-              <Image src={baby} alt="" width={64} />
+            <button className="border border-red-600 bg-red-600 rounded-full hover:opacity-55 p-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z" />
+                <path d="M15 5.764v15" />
+                <path d="M9 3.236v15" />
+              </svg>
             </button>
             <button>
               <svg
